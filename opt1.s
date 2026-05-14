@@ -108,7 +108,7 @@ main:
 .L19:
 	leaq	.LC6(%rip), %rdi
 	call	puts@PLT
-	leaq	(%r15,%rbp,2), %r15
+	addq	%rbp, %r15
 .L2:
 	leaq	16(%rsp), %rdi
 	movq	8(%rsp), %rcx

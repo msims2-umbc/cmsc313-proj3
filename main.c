@@ -46,9 +46,6 @@ int main() {
             }
         }
         printf("|\n");
-
-        // Increment address
-        addr += bytes_read;
     }
 
     // Close file

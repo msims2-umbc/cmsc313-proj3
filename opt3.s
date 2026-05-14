@@ -107,7 +107,7 @@ main:
 	jne	.L10
 .L23:
 	leaq	.LC6(%rip), %rdi
-	leaq	(%r12,%rbp,2), %r12
+	addq	%rbp, %r12
 	call	puts@PLT
 	jmp	.L2
 .L20:

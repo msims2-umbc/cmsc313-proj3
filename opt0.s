@@ -127,8 +127,6 @@ main:
 	call	puts@PLT
 	movq	-40(%rbp), %rax
 	addq	%rax, -56(%rbp)
-	movq	-40(%rbp), %rax
-	addq	%rax, -56(%rbp)
 .L4:
 	movq	-48(%rbp), %rdx
 	leaq	-32(%rbp), %rax
